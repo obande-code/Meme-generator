@@ -70,7 +70,7 @@ class Memegen extends Component {
                     </form>
                     <div class="card text-center text-white" style={{width:'50%', margin:'auto'}}>
                     <img src={this.state.randomImg} style={{backgroundRepeat:'noRepeat'}} alt="images" class="card-img img-fluid rounded" />
-                    <div class="card-img-overlay" style={{marginTop:"10em"}}>
+                    <div class="card-img-overlay" style={{marginTop:"5em"}}>
                     <h3 className="top">{this.state.topBody}</h3>
                     <h3 className="bottom">{this.state.bottomBody} </h3>
                     </div>
