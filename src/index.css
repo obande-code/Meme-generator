@@ -34,19 +34,3 @@ code {
   margin: auto;
   top:5px;
 }
-
-.bottom {
-  bottom: 80px;
-  position: absolute;
-  margin-left: 40%;
-  color: red;
-  
-}
-
-.top {
-  position: absolute;
-  margin-left: 40%;
-  top: 60%;
-  color: red;
- 
-}
