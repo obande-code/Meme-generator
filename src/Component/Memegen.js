@@ -41,6 +41,8 @@ class Memegen extends Component {
         
         return (
             <Fragment>
+                    <div className='container'>
+
                 <form onSubmit = {this.handleSubmit} className="myForm">
                <div className="form-group">
                    <br />
@@ -62,17 +64,18 @@ class Memegen extends Component {
                     value = {this.state.bottomBody}
                     onChange = {this.handleChange}
                      />
-                </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-                <br />
-                </form>
-                <div class="card text-center text-white" style={{width:'50%', margin:'auto'}}>
-                <img src={this.state.randomImg} style={{backgroundRepeat:'noRepeat'}} alt="images" class="card-img img-fluid rounded" />
-                <div class="card-img-overlay">
-                <h3 className="top">{this.state.topBody}</h3>
-                <h3 className="bottom">{this.state.bottomBody} </h3>
-                </div>
-                </div>
+                    </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <br />
+                    </form>
+                    <div class="card text-center text-white" style={{width:'50%', margin:'auto'}}>
+                    <img src={this.state.randomImg} style={{backgroundRepeat:'noRepeat'}} alt="images" class="card-img img-fluid rounded" />
+                    <div class="card-img-overlay" style={{marginTop:"10em"}}>
+                    <h3 className="top">{this.state.topBody}</h3>
+                    <h3 className="bottom">{this.state.bottomBody} </h3>
+                    </div>
+                    </div>
+                    </div>
             </Fragment>
                
         )
